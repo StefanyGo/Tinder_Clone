@@ -14,6 +14,9 @@
 		9C561DD41E92EE3B0086F5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C561DD21E92EE3B0086F5D4 /* LaunchScreen.storyboard */; };
 		9C561DDF1E92EE580086F5D4 /* Tinder_StefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C561DDE1E92EE580086F5D4 /* Tinder_StefTests.swift */; };
 		9C561DEA1E92EE590086F5D4 /* Tinder_StefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C561DE91E92EE590086F5D4 /* Tinder_StefUITests.swift */; };
+		9C561DF81E92EFC40086F5D4 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C561DF71E92EFC40086F5D4 /* CardsViewController.swift */; };
+		9C561DFA1E935C810086F5D4 /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C561DF91E935C810086F5D4 /* DraggableImageView.swift */; };
+		9C561DFC1E93620C0086F5D4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C561DFB1E93620C0086F5D4 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		9C561DE51E92EE590086F5D4 /* Tinder_StefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tinder_StefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C561DE91E92EE590086F5D4 /* Tinder_StefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder_StefUITests.swift; sourceTree = "<group>"; };
 		9C561DEB1E92EE590086F5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C561DF71E92EFC40086F5D4 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		9C561DF91E935C810086F5D4 /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
+		9C561DFB1E93620C0086F5D4 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				9C561DD01E92EE380086F5D4 /* Assets.xcassets */,
 				9C561DD21E92EE3B0086F5D4 /* LaunchScreen.storyboard */,
 				9C561DD51E92EE3C0086F5D4 /* Info.plist */,
+				9C561DF71E92EFC40086F5D4 /* CardsViewController.swift */,
+				9C561DF91E935C810086F5D4 /* DraggableImageView.swift */,
+				9C561DFB1E93620C0086F5D4 /* ProfileViewController.swift */,
 			);
 			path = Tinder_Stef;
 			sourceTree = "<group>";
@@ -261,6 +270,9 @@
 			files = (
 				9C561DCC1E92EE2C0086F5D4 /* ViewController.swift in Sources */,
 				9C561DCA1E92EE2A0086F5D4 /* AppDelegate.swift in Sources */,
+				9C561DFC1E93620C0086F5D4 /* ProfileViewController.swift in Sources */,
+				9C561DFA1E935C810086F5D4 /* DraggableImageView.swift in Sources */,
+				9C561DF81E92EFC40086F5D4 /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
